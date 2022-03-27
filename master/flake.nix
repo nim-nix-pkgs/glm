@@ -11,6 +11,7 @@
   inputs.src-glm-master.ref   = "refs/heads/master";
   inputs.src-glm-master.owner = "stavenko";
   inputs.src-glm-master.repo  = "nim-glm";
+  inputs.src-glm-master.dir   = "";
   inputs.src-glm-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
