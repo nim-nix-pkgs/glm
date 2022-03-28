@@ -11,7 +11,6 @@
   inputs.src-glm-v1_1_1.ref   = "refs/tags/v1.1.1";
   inputs.src-glm-v1_1_1.owner = "stavenko";
   inputs.src-glm-v1_1_1.repo  = "nim-glm";
-  inputs.src-glm-v1_1_1.dir   = "";
   inputs.src-glm-v1_1_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
